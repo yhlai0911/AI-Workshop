@@ -1,7 +1,0 @@
-# 1. 先從 git 歷史中移除包含 API key 的檔案
-git filter-branch --force --index-filter \
-"git rm --cached --ignore-unmatch 簡單聊天機器人網頁版/.env" \
---prune-empty --tag-name-filter cat -- --all
-
-# 2. 強制推送更新後的歷史
-git push origin --force 
