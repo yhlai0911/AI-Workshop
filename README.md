@@ -1,4 +1,4 @@
-# AI 工作坊
+# 大葉大學 AI 工作坊
 
 這個專案包含了一系列 AI 應用的實作範例，主要使用 LlamaIndex 和 OpenAI API 進行開發。
 
