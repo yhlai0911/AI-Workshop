@@ -3,13 +3,21 @@
 這個專案包含了一系列 AI 應用的實作範例，主要使用 LlamaIndex 和 OpenAI API 進行開發。
 
 ## 專案結構
+```
 .
-├── 簡單RAG/ # RAG (檢索增強生成) 實作範例
-│ ├── RAG.ipynb # RAG 教學筆記本
-│ └── 大量文字/ # 範例文件
-├── 簡單聊天機器人/ # 基礎聊天機器人實作
-└── 簡單聊天機器人網頁版/ # 網頁版聊天機器人
-
+├── 簡單RAG/                    # RAG (檢索增強生成) 實作範例
+│   ├── RAG.ipynb              # RAG 教學筆記本
+│   ├── 大量文字/              # 範例文件
+│   ├── index_store_台積電資料/  # 台積電資料索引
+│   └── index_store_帳單/      # 帳單資料索引
+├── 簡單聊天機器人/             # 基礎聊天機器人實作
+│   ├── main.py               # 主程式
+│   └── data/                 # 資料目錄
+└── 簡單聊天機器人網頁版/        # 網頁版聊天機器人
+    ├── main.py               # 主程式
+    ├── templates/            # 網頁模板
+    └── data/                 # 資料目錄
+```
 
 ## 功能特色
 
@@ -32,15 +40,15 @@
 ### 安裝步驟
 
 1. 複製專案
-   
-bash
-git clone https://github.com/your-username/AI-Workshop.git
-cd AI-Workshop
+   ```bash
+   git clone https://github.com/your-username/AI-Workshop.git
+   cd AI-Workshop
+   ```
 
 2. 安裝相依套件
-bash
-pip install -r requirements.txt
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. 環境變數設定
    - 複製 `.env.example` 到 `.env`
@@ -49,24 +57,23 @@ pip install -r requirements.txt
 ### 使用方式
 
 1. **RAG 系統**
-
-bash
-cd 簡單RAG
-jupyter notebook RAG.ipynb
-
+   ```bash
+   cd 簡單RAG
+   jupyter notebook RAG.ipynb
+   ```
 
 2. **基礎聊天機器人**
-bash
-cd 簡單聊天機器人
-python main.py
+   ```bash
+   cd 簡單聊天機器人
+   python main.py
+   ```
 
 3. **網頁版聊天機器人**
-bash
-cd 簡單聊天機器人網頁版
-python main.py
-
-
-然後在瀏覽器開啟 `http://localhost:5000`
+   ```bash
+   cd 簡單聊天機器人網頁版
+   python main.py
+   ```
+   然後在瀏覽器開啟 `http://localhost:5000`
 
 ## 注意事項
 
