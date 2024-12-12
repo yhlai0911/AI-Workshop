@@ -131,7 +131,7 @@
 
 本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
 
-## ���獻指南
+## 貢獻指南
 
 歡迎提 Issue 或 Pull Request 來協助改善專案。
 
